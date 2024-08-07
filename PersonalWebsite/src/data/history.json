@@ -1,0 +1,44 @@
+[
+    {
+      "role": "SWE Intern",
+      "organization": "Dex Software LLC",
+      "startDate": "Aug, 2021",
+      "endDate": "Aug, 2022",
+      "experiences": [
+      "Developed dynamic navigation links using React hooks",
+      "Designed JSON with RestApi to fetch and manipulate data for language variables"
+      ],
+      "imageSrc": "history/zigzag.png"
+    },
+    {
+      "role": "SWE",
+      "organization": "Stealth startup",
+      "startDate": "Mar, 2024",
+      "endDate": "Jun, 2024",
+      "experiences": [
+        "Worked on MVP of an informational chat assistant to help medical laboratories to comply with 500+ FDA regulations",
+        "Worked on MVP of a full-stack application to count cell colonies using fine tuned Segment Anything Model by Meta."
+      ],
+      "imageSrc": "history/stealth.png"
+    },
+    {
+      "role": "AI Intern",
+      "organization": "Accenture Inc.",
+      "startDate": "Aug, 2023",
+      "endDate": "Dec, 2023",
+      "experiences": [
+        "Designed machine learning  model to help analyze and predict a data breach cyber attack to prevent 1000+ data leaks.",
+        "Completed series of data processing, visualization and preparatio",
+        "Achieved 71% accuracy in regression SVM, Random Forest"
+      ],
+      "imageSrc": "history/accenture.png"
+    },
+    {
+      "role": "Front-End Eng Intern",
+      "organization": "Mentium.Io",
+      "startDate": "Sept, 2022",
+      "endDate": "Present",
+      "experiences": ["Developed and maintained web user-facing features, and applications while ensuring the technical feasibility of UI/UX design, conducted A/B testing"],
+      "imageSrc": "history/mentium.png"
+    }
+]

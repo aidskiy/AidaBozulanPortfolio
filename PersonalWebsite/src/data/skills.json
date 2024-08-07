@@ -1,0 +1,74 @@
+[
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "skills/react.png"
+    },
+    {
+      "title": "Node",
+      "imageSrc": "skills/node.png"
+    },
+    {
+      "title": "RestAPI",
+      "imageSrc": "skills/restapi.png"
+    },
+    {
+      "title": "Redux",
+      "imageSrc": "skills/redux.png"
+    },
+    {
+      "title": "Firebase",
+      "imageSrc": "skills/firebase.png"
+    },
+    {
+      "title": "Xcode",
+      "imageSrc": "skills/xcode.png"
+    },
+    {
+      "title": "Android studio",
+      "imageSrc": "skills/androidstudio.png"
+    },
+    {
+      "title": "Flask",
+      "imageSrc": "skills/flask.png"
+    },
+    {
+      "title": "Heroku",
+      "imageSrc": "skills/heroku.png"
+    },
+    {
+      "title": "Snowflake",
+      "imageSrc": "skills/snowflake.png"
+    },
+    {
+      "title": "Pandas",
+      "imageSrc": "skills/pandas.png"
+    },
+    {
+      "title": "NumPy",
+      "imageSrc": "skills/numpy.png"
+    },
+    {
+      "title": "Matplotlib",
+      "imageSrc": "skills/matplotlib.png"
+    },
+    {
+      "title": "GraphQL",
+      "imageSrc": "skills/graphql.png"
+    },
+    {
+      "title": "MongoDB",
+      "imageSrc": "skills/mongodb.png"
+    },
+    {
+      "title": "Figma",
+      "imageSrc": "skills/figma.png"
+    }
+]

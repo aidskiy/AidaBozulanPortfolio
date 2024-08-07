@@ -1,0 +1,26 @@
+[
+    {
+      "title": "HelperGPT",
+      "imageSrc": "projects/project.png",
+      "description": "Telegram bot powered by GPT-3.5 to act as a personal assistant.",
+      "skills": ["OpenAI API", "TelegramBot", "Typescript", "Asyncio"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "NY Botanical Garden",
+      "imageSrc": "projects/project.png",
+      "description": "ML model competition to identify the type of a flower",
+      "skills": ["Matplotlib", "TensorFlow", "Scikit-Learn", "Pytorch"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    },
+    {
+      "title": "Building Blocks",
+      "imageSrc": "projects/project.png",
+      "description": "This is an Android app that teaches Data Structures and Algorithms",
+      "skills": ["Android", "Java", "Firebase", "Github"],
+      "demo": "https://www.example.com",
+      "source": "https://www.github.com"
+    }
+  ]
