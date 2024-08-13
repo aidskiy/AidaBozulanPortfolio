@@ -9,7 +9,7 @@ export const Hero = () => {
             <div className={styles.content}>
                 <h1 className={styles.title}> Hai, I'm Aida</h1>
                 <p className={styles.description}>
-                    <Typewriter text="Welcome to my Website" delay={100} infinite />
+                    <Typewriter text="Welcome to my Website" delay={150} infinite />
                 </p>
                 <a href="mailto:aidabozulan@gmail.com" className={styles.contactBtn}> Email contact</a>
             </div>
