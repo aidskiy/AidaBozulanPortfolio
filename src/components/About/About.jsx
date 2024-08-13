@@ -14,28 +14,25 @@ export const About = () =>{
                         <div className={styles.aboutItemText}>
                             <h3>Frontend Developer</h3>
                             <p>
-                                I'm a frontend developer with experience in building responsive
-                                and optimized sites
+                                lkvndsknvknsdknvks
                             </p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
                         <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
                         <div className={styles.aboutItemText}>
-                            <h3>Backend Developer</h3>
+                            <h3>Data Scientist</h3>
                             <p>
-                                I have experience developing fast and optimised back-end systems
-                                and APIs
+                                slknvdklnsdkvnksjnv
                             </p>
                         </div>
                     </li>
                     <li className={styles.aboutItem}>
                         <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
                         <div className={styles.aboutItemText}>
-                            <h3>UI Designer</h3>
+                            <h3>ajbvbksjv</h3>
                             <p>
-                                I have designed multiple landing pages and have created design
-                                systems as well
+                                sdlkvndlsn
                             </p>
                         </div>
                     </li>
