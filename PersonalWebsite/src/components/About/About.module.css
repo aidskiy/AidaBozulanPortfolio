@@ -2,7 +2,7 @@
 
 .container {
     position: relative;
-    background-color: rgba(12, 12, 12, 0.6);
+    background-color: rgba(200, 142, 87, 0.6);
     border-radius: 15px;
     padding: 73px;
     margin-top: 129px;
@@ -41,8 +41,8 @@
     padding: 25px;
     background-image: linear-gradient(
       90deg,
-      rgba(165, 215, 232, 0.42) 0%,
-      rgba(255, 255, 255, 0) 100%
+      rgba(200, 142, 87, 0.42) 0%,
+      rgba(200, 142, 87, 0) 100%
     );
     background-size: 0 100%;
     background-repeat: no-repeat;

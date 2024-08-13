@@ -1,6 +1,7 @@
 import React from "react";
 import { getImageUrl } from "../utils";
 import styles from "../components/Hero.module.css";
+import Typewriter from "./Typewriter";
 
 export const Hero = () => {
     return (
@@ -8,7 +9,7 @@ export const Hero = () => {
             <div className={styles.content}>
                 <h1 className={styles.title}> Hai, I'm Aida</h1>
                 <p className={styles.description}>
-                    sjvnksdbvbajdvla jksbdvb jdvbkab bdskjvbabv kjbvkzb sndvkjbv bvskdjbjkbs
+                    <Typewriter text="Welcome to my Website" delay={100} infinite />
                 </p>
                 <a href="mailto:aidabozulan@gmail.com" className={styles.contactBtn}> Email contact</a>
             </div>
