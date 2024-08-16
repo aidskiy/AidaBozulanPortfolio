@@ -1,7 +1,7 @@
 {
   "homepage": "https://aidskiy.github.io/AidaBozulanPortfolio",
-  "name": "personalwebsite",
-  "private": true,
+  "name": "AidaBozulanPortfolio",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
