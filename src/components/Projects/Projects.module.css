@@ -1,26 +1,39 @@
 @import "../../vars.css";
 
 .container {
-  margin-top: 76px;
+  margin-top: 70px;
   color: var(--color-text);
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 100%;
 }
 
 .title {
+  color: var(--color-text);
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  margin-bottom: 15px;
+  padding-left: 10%;
+}
+.projectsCarousel {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 40px;
 }
 
-.projects {
-  margin-top: 37px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  width: 100%;
+.projectSlide {
+  padding: 10px 15px;
 }
+
+/* Override some default slick-carousel styles */
+:global .slick-prev:before,
+:global .slick-next:before {
+  color: var(--color-text);
+  font-size: 30px;
+  font-weight: 400;
+  opacity: 0.5;
+  text-shadow: 0 0 10px var(--color-text);
+}
+
+

@@ -1,5 +1,24 @@
 @import "../../vars.css";
 
+@keyframes jump {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .jumpAnimation {
+    animation: jump 1s ease infinite;
+    animation-delay: calc(var(--animation-order) * 0.1s);
+  }
+  
+  .skill {
+    /* existing styles */
+    --animation-order: 0;
+  }
+
 .container {
   color: var(--color-text);
   margin-top: 79px;

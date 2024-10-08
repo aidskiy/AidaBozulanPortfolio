@@ -1,15 +1,23 @@
 [
     {
-      "title": "HelperGPT",
-      "imageSrc": "projects/project.png",
-      "description": "Telegram bot powered by GPT-3.5 to act as a personal assistant.",
-      "skills": ["OpenAI API", "TelegramBot", "Typescript", "Asyncio"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "Changelog++",
+      "imageSrc": "projects/MintlifyHacathon.png",
+      "description": "Full stack application that generates a changelog for your project.",
+      "skills": ["Hackathon", "NodeJS", "Typescript", "AI API", "NextJS"],
+      "demo": "https://changelog-plus-plus.vercel.app",
+      "source": "https://github.com/hahnbeelee/changelog-plus-plus"
+    },
+    {
+      "title": "MOM!",
+      "imageSrc": "projects/mom.jpeg",
+      "description": "Telegram AI Bot-Coach that helps you stay productive and accountable",
+      "skills": ["AGI House", "TelegramBot", "Typescript", "NextJS", "Perplexity"],
+      "demo": "https://telegram-life-coach-ai.vercel.app",
+      "source": "https://github.com/asakohayase/telegram-life-coach-ai"
     },
     {
       "title": "NY Botanical Garden",
-      "imageSrc": "projects/project.png",
+      "imageSrc": "projects/nybg.jpg",
       "description": "ML model competition to identify the type of a flower",
       "skills": ["Matplotlib", "TensorFlow", "Scikit-Learn", "Pytorch"],
       "demo": "https://www.example.com",
@@ -17,10 +25,19 @@
     },
     {
       "title": "Building Blocks",
-      "imageSrc": "projects/project.png",
-      "description": "This is an Android app that teaches Data Structures and Algorithms",
+      "imageSrc": "projects/buildingblocks.jpeg",
+      "description": "an Android app that teaches Data Structures and Algorithms, includes quizzes and flashcards",
       "skills": ["Android", "Java", "Firebase", "Github"],
+      "demo": "https://github.com/paceuniversity/cs389s2023team1",
+      "source": "https://github.com/paceuniversity/cs389s2023team1"
+    },
+    {
+      "title": "HelperGPT",
+      "imageSrc": "projects/project.png",
+      "description": "Telegram bot powered by GPT-3.5 to act as a personal assistant.",
+      "skills": ["OpenAI API", "TelegramBot", "Typescript", "Asyncio"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"
     }
+   
   ]

@@ -1,16 +1,5 @@
 [
     {
-      "role": "SWE Intern",
-      "organization": "Dex Software LLC",
-      "startDate": "Aug, 2021",
-      "endDate": "Aug, 2022",
-      "experiences": [
-      "Developed dynamic navigation links using React hooks",
-      "Designed JSON with RestApi to fetch and manipulate data for language variables"
-      ],
-      "imageSrc": "history/zigzag.png"
-    },
-    {
       "role": "SWE",
       "organization": "Stealth startup",
       "startDate": "Mar, 2024",
@@ -32,6 +21,17 @@
         "Achieved 71% accuracy in regression SVM, Random Forest"
       ],
       "imageSrc": "history/accenture.png"
+    },
+    {
+      "role": "SWE Intern",
+      "organization": "Dex Software LLC",
+      "startDate": "Aug, 2021",
+      "endDate": "Aug, 2022",
+      "experiences": [
+      "Developed dynamic navigation links using React hooks",
+      "Designed JSON with RestApi to fetch and manipulate data for language variables"
+      ],
+      "imageSrc": "history/zigzag.png"
     },
     {
       "role": "Front-End Eng Intern",

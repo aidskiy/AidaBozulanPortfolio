@@ -8,6 +8,9 @@
   box-shadow: 0 16px 14px 0 #BB783A;
   padding: 18px 24px;
   max-width: 345px;
+  height: 100%;
+  margin-bottom: 20px;
+  overflow-y: auto; 
 }
 .title {
   font-size: 25px;
@@ -28,15 +31,15 @@
   list-style: none;
 }
 .skill {
-  font-size: 25px;
+  font-size: clamp(12px, 1.5vw, 20px);
   font-weight: 400;
-  border-radius: 100px;
+  border-radius: 50px;
   background: var(--color-dark);
-  padding: 2px 22px;
+  padding: 1px clamp(8px, 1.5vw, 18px);
 }
 .links {
   width: 100%;
-  margin-top: 26px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-around;
 }
@@ -44,8 +47,10 @@
 .link {
   text-decoration: none;
   color: var(--color-text);
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 23px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 400;
   border-radius: 100px;
   background: var(--color-primary);
   padding: 1px 22px;
