@@ -16,9 +16,9 @@
       "source": "https://github.com/asakohayase/telegram-life-coach-ai"
     },
     {
-      "title": "NY Botanical Garden",
+      "title": "NYBG Competition",
       "imageSrc": "projects/nybg.jpg",
-      "description": "ML model competition to identify the type of a flower",
+      "description": "Computer vision model competition to identify the type of a flower",
       "skills": ["Matplotlib", "TensorFlow", "Scikit-Learn", "Pytorch"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com"

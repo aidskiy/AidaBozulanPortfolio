@@ -2,13 +2,20 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import { useRef, useEffect } from "react";
 import styles from "./Projects.module.css";
 
 import projects from "../../data/projects.json";
 import { ProjectCard } from "./ProjectCard";
 
 export const Projects = () => {
+  const sliderRef = useRef(null);
+
+  useEffect(() => {
+    if (sliderRef.current) {
+      sliderRef.current.slickPlay();
+    }
+  }, []);
   
   const settings = {
     className: "center",
@@ -16,7 +23,11 @@ export const Projects = () => {
     infinite: true,
     centerPadding: "70px",
     slidesToShow: 3,
-    speed: 500,
+    speed: 10000,
+    autoplay: true,
+    autoplaySpeed: 0,
+    cssEase: 'linear',
+    pauseOnFocus: true,
     responsive: [
       {
         breakpoint: 1200,
@@ -51,7 +62,7 @@ export const Projects = () => {
   return (
     <section className={styles.container} id="projects">
       <h2 className={styles.title}>Projects</h2>
-      <Slider {...settings} className={styles.projectsCarousel}>
+      <Slider ref={sliderRef} {...settings} className={styles.projectsCarousel}>
         {projects.map((project, id) => (
           <div key={id} className={styles.projectSlide}>
             <ProjectCard project={project} />
