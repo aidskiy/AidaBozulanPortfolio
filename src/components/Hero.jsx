@@ -2,6 +2,7 @@ import React from "react";
 import { getImageUrl } from "../utils";
 import styles from "../components/Hero.module.css";
 import Typewriter from "./Typewriter";
+import { ViewResumeButton } from "./ViewResumeButton/ViewResumeButton";
 
 export const Hero = () => {
     return (
@@ -11,11 +12,11 @@ export const Hero = () => {
                 <p className={styles.description}>
                     <Typewriter text="Welcome to my Website" delay={150} infinite />
                 </p>
-                <a href="mailto:aidabozulan@gmail.com" className={styles.contactBtn}> Email contact</a>
+                <ViewResumeButton />
             </div>
             <img src={getImageUrl("hero/heroImage.png")} alt="Hero image of me" className={styles.heroImg}></img>
-                <div className={styles.topBlur}></div>
-                <div className={styles.bottomBlur}></div>
+            <div className={styles.topBlur}></div>
+            <div className={styles.bottomBlur}></div>
         </section>
     );
 };

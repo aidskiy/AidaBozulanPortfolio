@@ -6,16 +6,16 @@ import { Hero } from "./components/Hero";
 import { Navbar } from "./components/NavBar";
 import { Projects } from "./components/Projects/Projects";
 
+
 function App() {
   return (
     <div className={styles.App}>
       <Navbar />
       <Hero />
-      <Experience />
       <Projects />
-      <About />
-      <Contact />
-  
+      {/* <About /> */}
+      {/* <Contact /> */}
+
     </div>
   );
 }
