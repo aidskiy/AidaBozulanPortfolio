@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { createPortal } from 'react-dom';
 import styles from './ViewResumeButton.module.css';
 
 export const ViewResumeButton = ({ 
@@ -28,7 +29,7 @@ export const ViewResumeButton = ({
       </button>
 
       {/* Modal */}
-      {isModalOpen && (
+      {isModalOpen && createPortal(
         <div className={styles.modal} onClick={closeModal}>
           <div className={styles.modalContent} onClick={(e) => e.stopPropagation()}>
             <div className={styles.modalHeader}>
@@ -51,7 +52,8 @@ export const ViewResumeButton = ({
               />
             </div>
           </div>
-        </div>
+        </div>,
+        document.body
       )}
     </>
   );
